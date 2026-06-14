@@ -1,7 +1,9 @@
 from detail_input_system import collect_class_records
+from detail_input_system import class_cut_off
 import grading_system as gs
 
-student_records, pass_mark = collect_class_records()
+student_records = collect_class_records()
+pass_mark = class_cut_off()
 while True:
     print("\n1--Highest score")
     print("\n2--Lowest score")

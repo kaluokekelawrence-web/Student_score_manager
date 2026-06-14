@@ -30,6 +30,10 @@ def collect_class_records():
                 student_records[student_names] = student_score
         except ValueError:
             print("Invalid score. Please enter a whole number.")
+    return student_records
+
+
+def class_cut_off():
     while True:
         try:
             cut_off = input(" \nCut Off:")
@@ -40,8 +44,8 @@ def collect_class_records():
                 else:
                     print("enter an integer btw 0 and 100")
             else:
-                print("enter an integer btw 0 and 100")        
+                print("enter an integer btw 0 and 100")
         except ValueError:
             print("enter a correct value")
     print("\nProceeding to menu...")
-    return student_records, pass_mark
+    return pass_mark
