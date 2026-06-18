@@ -35,17 +35,14 @@ def collect_class_records():
 
 def class_cut_off():
     while True:
-        try:
-            cut_off = input(" \nCut Off:")
-            if cut_off.isdigit():
-                pass_mark = int(cut_off)
-                if 0 <= pass_mark <= 100:
-                    break
-                else:
-                    print("enter an integer btw 0 and 100")
+        cut_off = input(" \nCut Off:")
+        if cut_off.isdigit():
+            pass_mark = int(cut_off)
+            if 0 <= pass_mark <= 100:
+                break
             else:
                 print("enter an integer btw 0 and 100")
-        except ValueError:
-            print("enter a correct value")
+        else:
+            print("enter an integer btw 0 and 100")
     print("\nProceeding to menu...")
     return pass_mark
