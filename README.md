@@ -18,7 +18,7 @@ Manual grading and ranking is error-prone. This tool automates score input, grad
 
 ## Setup
 ```bash
-git clone https://github.com/kaluokekelawrence-web/student-score-manager
+git clone https://github.com/kaluokekelawrence-web/student_score_manager
 cd student-score-manager
 python main.py
 ```
@@ -39,4 +39,4 @@ student_score_manager/
 
 Lawrence Kalu-Okeke
 
-GitHub Repository: https://github.com/kaluokekelawrence-web/student-score-manager
+GitHub Repository: https://github.com/kaluokekelawrence-web/student_score_manager
