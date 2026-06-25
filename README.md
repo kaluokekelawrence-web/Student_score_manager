@@ -2,17 +2,7 @@
 
 
 
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-
-
-
-
-![License](https://img.shields.io/badge/license-MIT-green)
-
-
-
-
-![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.x-blue)![License](https://img.shields.io/badge/license-MIT-green)![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 
 
