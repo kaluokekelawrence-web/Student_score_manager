@@ -1,0 +1,15 @@
+# Secrets
+.env
+.env.*
+
+# Python generated
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Editor
+.vscode/
+.idea/
