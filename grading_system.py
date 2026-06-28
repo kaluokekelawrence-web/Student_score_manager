@@ -29,7 +29,7 @@ def class_average(records):
     total = sum(records.values())
     count = len(records)
     average = total / count
-    print(f"The class average is {average:.2f}")	
+    print(f"The class average is {average:.2f}")
 
 
 def print_all_records(records):
